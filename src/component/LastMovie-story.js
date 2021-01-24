@@ -26,7 +26,7 @@ const LastMovieStory = (props) => {
             {loading ? (
                 <CircularProgress className={classes.loading} />
             ) : (
-                    <TextField id="filled-basic" label={props.title + ' - ' + props.releaseDate} variant="filled" />
+                    <TextField id="filled-basic" label={props.title + ' - ' + props.releaseDate} variant="filled" disabled />
                 )}
         </div>
     );
